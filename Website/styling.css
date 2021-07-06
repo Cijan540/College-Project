@@ -1,0 +1,992 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:aliceblue;
+
+}
+
+   
+nav{
+    background-color: rgb(43, 41, 43);
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    opacity: .8;
+    
+}
+
+.logo{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.logo ul{
+    
+    display: inline-flex;
+    list-style: none;
+    
+    text-decoration: none;
+    font-size: 30px;
+        
+}
+
+.logo ul li{
+    
+    color: aqua;
+    position: relative;
+}
+
+.logo ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 40px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+.logo ul li a:hover{
+    color: black;
+    background-color: aliceblue;
+    
+   
+    
+}
+
+.logo .active{
+    color:green;
+    background-color: aliceblue;
+    
+}
+
+
+.logo ul li ul{
+    display: none;
+    position: absolute;
+    background-color:rgb(43, 41, 43) ;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.logo ul li:hover ul{
+    display: block;
+}
+ 
+
+.logo ul li ul li{
+    width: 180px; ;
+}
+.logo ul li ul li a{
+    font-size: 10px;
+}
+
+
+.logo ul li a:hover .drop{
+    display: block;
+    position: absolute;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 650px;
+    
+}
+
+.card{
+    float: left;
+    width: 45%;
+    margin: 30px;
+    
+}
+
+.boxes{
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: repeat(3,30%);
+    grid-gap: 40px;
+}
+.box1{
+background-color: yellow;
+margin-left: 40px;
+padding: 5px;
+}
+.box1:hover{
+    opacity: .8;
+    transform: translateY(10%);
+    
+}
+.fas{
+    font-size: 50px;
+    margin-top: 3px;
+    margin-left: 40% ;
+}
+.far{
+    font-size: 50px;
+    margin-top: 3px;
+    margin-left: 40% ;
+}
+.box2{
+    background-color: yellow;
+margin-left: 40px;
+padding: 2px;
+}
+.box2:hover{
+    opacity: .8;
+    transform: translatey(-10%);
+    
+}
+.box3{
+    background-color: yellow;
+margin-left: 40px;
+padding: 2px;
+}
+.box3:hover{
+    opacity: .8;
+    transform: translateY(10%);
+    
+}
+.Quote{
+    font-family: 'Cookie', cursive;
+}
+
+.A i{
+    color:aliceblue;
+    font-size: 40px;
+    padding: 10px;
+}
+/* paralex */
+.paralex{
+    background: url(paralx.jpg) fixed 100%;
+    
+}
+
+.paralex-inner{
+    padding: 10% 0;
+    
+}
+.btn1{
+    margin-left: 20%;
+    padding: 5px 50px;
+
+}
+.Quote{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    
+}
+.Quote h1{
+    background-color: #74c3dd;
+}
+.footer-part{
+    position: relative;
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns:repeat(2, 350px) 300px ;
+    background-color: rgb(63, 63, 63);
+    background-image: url(mira.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.A ul li {
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.A h3{
+    color: white;
+}
+
+.A ul li a{
+    color: rgb(214, 220, 224);
+    text-decoration: none;
+}
+
+.A ul li a:hover{
+    color: white;
+}
+
+
+.B ul li {
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.B h3{
+    color: white;
+}
+
+.B ul li a{
+    color: rgb(214, 220, 224);
+    text-decoration: none;
+}
+
+.B ul li a:hover{
+    color: white;
+}
+
+.B ul li{
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+.B ul{
+    margin-top: 40px;
+}
+.side.fas{
+    color: aliceblue;
+    font-size:40px;
+}
+.fas:hover{
+    color: white;
+}
+
+.fab{
+    display: inline;
+    color: rgb(214, 220, 224);
+    font-size: 35px;
+}
+
+.fab:hover{
+    color: white;
+}
+
+
+.D iframe{
+    height: 325px;
+    width: 125%;
+}
+
+
+.address a{
+    color:rgb(214, 220, 224) ;
+    text-decoration: none;
+}
+
+.address a:hover{
+    color: white;
+}
+
+
+
+.contact{
+    display: grid;
+    grid-template-rows: 650px;
+    grid-template-columns: repeat(2 25%);
+    background-color: #fff;
+    margin: 0 10%;
+    border-radius: 5px;
+    box-shadow: rgb(185, 180, 180) 10px 10px 10px 10px;
+    
+}
+.infoA{
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+.infoB{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.cont-info{
+    padding-left: 10%;
+    margin-top: 2%;
+}
+form{
+margin-left: 30%;
+margin-right: 10%;
+}
+.cont-info a{
+    color: black;
+}
+
+
+
+main{
+    display: grid;
+    grid-template-rows: 300px 400px;
+    grid-template-columns: repeat(3, 25%) ;
+    grid-gap: 80px;
+    justify-content: center; 
+}
+
+h2{
+    text-align: center;
+    color: rgb(82, 80, 80);
+}
+ .A1{
+     background-color: #e9ded3;
+     border-radius: 15px;
+     box-shadow:  10px 10px 10px 0 rgb(70, 85, 94);
+     
+ }
+ .A1 p{
+     text-align: justify;
+     font-family: 'Gelasio', serif;
+     font-weight: lighter;
+     font-size: 20px;
+     padding: 10px;
+     
+ }
+
+ .A1 img{
+     border-radius: 200px;
+     height: 100px;
+     width: auto;
+ }
+ .B1 img{
+    border-radius: 200px;
+    height: 100px;
+    width: auto;
+}
+.C1 img{
+    border-radius: 200px;
+    height: 100px;
+    width: auto;
+}
+ .B1{
+     background-color: #e9ded3;
+     border-radius: 15px;
+     box-shadow:  10px 10px 10px 0 rgb(70, 85, 94);
+ }
+ .B1 p{
+    text-align: justify;
+    font-family: 'Gelasio', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+ .C1{
+     background-color: #e9ded3;
+     border-radius: 15px;
+     box-shadow:  10px 10px 10px 0 rgb(70, 85, 94);
+ }
+ .C1 p{
+    text-align: justify;
+    font-family: 'Gelasio', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 10px;
+}
+.D1{
+    grid-column: 1/4;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+.D1 p{
+    text-align: justify;
+}
+.D1 img{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: auto;
+}
+.D1 button{
+    width: 200px;
+    margin-left:150px ;
+    margin-top: 30px;
+    padding: 5px 0;
+    background: linear-gradient(-140deg,#3ef338,#258add);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.D1 button:hover{
+    background: linear-gradient(90deg, rgb(221, 138, 82) , #ff4500 );
+    color: aliceblue;
+    transition: 1.5s;
+}
+
+.D1 a i{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.book{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    color: black;
+    border-radius: 3px;
+
+}
+.btn{
+    padding: 7px 45px;
+    background: linear-gradient(55deg,rgb(34, 220, 226),#00BFFF);
+    border: 0;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background: linear-gradient(45deg,rgb(73, 66, 52),orange, #7D0552)
+}
+.cards{
+   columns: 4;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+
+.card{
+    box-shadow: 5px 5px 5px 0 rgb(70, 85, 94);
+    transition: all 150ms ease-in;
+    width: 250px;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 20px 10px rgb(70, 85, 94);
+    transform: translateY(-10%);
+}
+
+
+.gallery{
+    columns: 4;
+    column-gap: 16px ;
+    background-color: rgb(185, 180, 180);
+    padding: 10px;
+}
+
+.gallery-images img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.vid{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    
+}
+.vid video{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+}
+.thumb{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb li{
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 3px 3px 0;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.thumb li :hover{
+    opacity: 1;
+}
+.thumb li img{
+    width: 120px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+
+.thumb li img:hover{
+    width: 200px;
+    opacity:1;
+}
+
+/* resvonsive */
+
+@media screen and (max-width:1200px) { 
+
+    .carousel-inner img{
+        width: 100%;
+        height: 400px;
+        
+    }
+
+ 
+    .footer-part{
+        position: relative;
+        display: block;
+        background-color: rgb(63, 63, 63);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .D iframe{
+        height: 325px;
+        width: auto;
+    }
+    .D h3{
+        color: aliceblue;
+    }
+
+    .card{
+        display: block;
+        width: 100%;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .col-md-4 img{
+        width: auto;
+    }
+    main{
+        display: block;
+        width: 100%; 
+
+    }
+    .A1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .B1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .C1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .D1 img{
+        float: right;
+        padding-top: 10px;
+        padding-right: 10px;
+        height: 100px;
+        width: auto;
+    }
+    .D1 a i{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .D1 button{
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+
+    .gallery{
+        columns: 4;
+        column-gap: 16px ;
+        background-color: rgb(185, 180, 180);
+        padding: 10px;
+    }
+    .boxes{
+        display: block;
+        
+        
+    }
+
+    .box1{
+        background-color: yellow;
+        margin: 10px;
+        padding: 5px;
+        margin-bottom: 10px;
+        }
+        .box2{
+            background-color: yellow;
+        margin: 10px;
+        padding: 5px;
+        margin-bottom: 10px;
+        }
+        .box3{
+            background-color: yellow;
+        margin: 10px;
+        padding: 5px;
+        margin-bottom: 10px;
+        }
+       
+        .cards{
+            columns: 2; 
+            
+            padding: 10px;
+             
+         }
+         .class1{
+            width: 18rem;
+            
+        }
+         .class2{
+             width: 18rem;
+         }
+         .class3{
+            width: 18rem;
+        }
+        .class4{
+            width: 18rem;
+        }
+        .card{
+            margin-bottom: 20px;
+        }
+        .contact{
+            display: block;
+            
+        }
+        .infoA{
+            grid-row: 1/2;
+            grid-column: 1/3;
+        }
+        .infoB{
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+        .cont-info{
+            padding-left: 10%;
+            margin-top: 2%;
+        }
+        form{
+        margin-left: 10%;
+        margin-right: 10%;
+        }
+        .btn4{
+            margin-left: 20%;
+            background-color: rgb(255, 72, 0);
+            color: #fff;padding: 5px 30px;
+        }
+       
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:992px) { 
+
+   
+
+
+    /* nav{
+        display: flex;
+        
+        
+    }
+    
+    .logo{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    .logo ul{
+        
+        display: inline-flex;
+        list-style: none;
+        text-decoration: none;
+        font-size: 10px;
+            
+    }
+    
+    .logo ul li{
+        
+        color: aqua;
+        position: relative;
+    }
+    
+    .logo ul li a{
+       
+        margin: 10px;
+        color: aliceblue;
+        font-size: 13px;
+        
+    
+    
+    }
+    .logo ul li ul{
+        display: none;
+        position: absolute;
+        
+    }
+    
+    .logo ul li:hover ul{
+        display: block;
+    }
+     
+    
+    .logo ul li ul li{
+        width: 10px; ;
+    }
+    .logo ul li ul li a{
+        font-size: 10px;
+    }
+    
+    
+    .logo ul li a:hover .drop{
+        display: block;
+        position: absolute;
+    } */
+
+    .carousel-inner img{
+        width: 100%;
+        height: 400px;
+        
+    }
+
+ 
+    .footer-part{
+        position: relative;
+        display: block;
+        background-color: rgb(63, 63, 63);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .D iframe{
+        height: 325px;
+        width: auto;
+    }
+    .D h3{
+        color: aliceblue;
+    }
+
+    .card{
+        display: block;
+        width: 100%;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .col-md-4 img{
+        width: auto;
+    }
+    main{
+        display: block;
+        width: 100%; 
+
+    }
+    .A1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .B1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .C1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .D1 img{
+        float: right;
+        padding-top: 10px;
+        padding-right: 10px;
+        height: 100px;
+        width: auto;
+    }
+    .D1 a i{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .D1 button{
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    .gallery{
+        columns: 3;
+        column-gap: 16px ;
+        background-color: rgb(185, 180, 180);
+        padding: 10px;
+    }
+    .cards{
+        columns: 2;
+        width: 100%; 
+         
+     }
+     .cards{
+        columns: 2;
+        width: 50%; 
+        margin-left: 23%;
+        padding: 10px;
+         
+     }
+     .class1{
+        width: auto;
+        
+    }
+     .class2{
+         width: auto;
+     }
+     .class3{
+        width: auto;
+    }
+    .class4{
+        width: auto;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:576px) { 
+    .carousel-inner img{
+        width: 100%;
+        height: 300px;
+        
+    }
+
+ 
+    .footer-part{
+        position: relative;
+        display: block;
+        background-color: rgb(63, 63, 63);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .D iframe{
+        height: 325px;
+        width: auto;
+    }
+    .D h3{
+        color: aliceblue;
+    }
+
+    .card{
+        display: block;
+        width: 100%;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .col-md-4 img{
+        width: auto;
+    }
+    main{
+        display: block;
+        width: 100%; 
+
+    }
+    .A1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .B1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+        
+    }
+    .C1{
+        border-radius: 0px 20px 0px 20px;
+        margin: 0 10px;
+        box-shadow:  5px 5px 5px 0 rgb(70, 85, 94);
+    }
+    .D1 img{
+        float: right;
+        padding-top: 10px;
+        padding-right: 10px;
+        height: 100px;
+        width: auto;
+    }
+    .D1 a i{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .D1 button{
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    .gallery{
+        columns: 2;
+        column-gap: 16px ;
+        background-color: rgb(185, 180, 180);
+        padding: 10px;
+    }
+    .cards{
+        columns: 2;
+        width: 100%; 
+         
+     }
+     .cards{
+        columns: 1;
+        width: 50%; 
+        margin-left: 130px;
+        padding: 10px;
+         
+     }
+     .class1{
+        width: 15rem;
+        
+    }
+     .class2{
+         width: 15rem;
+     }
+     .class3{
+        width: 15rem;
+    }
+    .class4{
+        width: 15rem;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .A i{
+        color:aliceblue;
+        font-size: 20px;
+        
+        
+    }
+    .paralex{
+        background: url(gateway.JPG) fixed 100%;
+        
+    }
+    
+    .paralex-inner{
+        padding: 10% 0;
+        
+    }
+    .vid video{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    
+    }
+    .thumb li img{
+        width: 50px;
+        transition: 0.5s;
+        padding-bottom: 5px;
+    }
+    .btn4{
+        margin-left: 10px;
+        background-color: rgb(255, 72, 0);
+        color: #fff;padding: 5px 30px;
+    }
+
+}
